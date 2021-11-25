@@ -1,0 +1,177 @@
+:root{
+    --orange: #e4d2b9;
+    --green: #b7c5a9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,a,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Great Vibes', cursive;
+}
+
+img{
+    max-width: 100%;
+}
+
+.text_spacing{
+    letter-spacing: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+.theme_color{
+    color: #b7c5a9;
+}
+
+.orange_color{
+    color: var(--orange);
+}
+
+/* common css end */
+
+/* All Button style here */
+
+.theme_btn{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #b7c5a9;
+    position: relative;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.theme_btn:hover{
+    padding-right: 45px;
+}
+
+.theme_btn::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    top: 50%;
+    left: 85%;
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    -o-transition: all .4s linear;
+}
+
+.theme_btn:hover::after{
+    width: 75px;
+    left: 88%;
+}
+
+/* All section style here */
+
+.section_title h2{
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    padding: 0 30px;
+    position: relative;
+}
+
+.section_title h2::before,
+.section_title h2::after{
+    position: absolute;
+    content: '';
+    background: var(--green);
+    width: 150px;
+    height: 1px;
+    top: 50%;
+    
+}
+
+.section_title h2::before{
+    right: 100%;
+}
+
+.section_title h2::after{
+    left: 100%;
+}
+
+
+/* All side-section style here */
+
+.side_section h2{
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    padding-right: 30px;
+    position: relative;
+}
+
+.side_section h2::after{
+    position: absolute;
+    content: '';
+    width: 110px;
+    height: 1px;
+    top: 50%;
+    left: 100%;
+    
+}
+
+
+
+/* oauertqw3u489ty9w3yt4 */
+
+/* .event_area .bdr{
+    position: relative;
+}
+
+.event_area .bdr::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid red;
+}
+
+.event_area .event_bg{
+    position: relative;
+}
+
+.event_area .single_event{
+    position: absolute;
+    top: 50px;
+} */

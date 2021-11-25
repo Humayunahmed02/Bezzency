@@ -1,0 +1,441 @@
+@media (min-width:320px) and (max-width:575.90px) {
+
+     /*============= banner part =============*/
+
+    .inner_title {
+        background-size: cover !important;
+    }
+
+    .banner_content {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .banner_content span {
+        font-size: 22px;
+    }
+
+    .banner_content h1 {
+        font-size: 60px;
+        margin-bottom: 12px;
+        margin-top: -30px;
+    }
+
+    .banner_content .theme_btn {
+        margin-top: 3px;
+    }
+
+    /*=============== About Area ================*/
+
+    .side_section h2 {
+        font-size: 36px;
+        padding-right: 0;
+    }
+
+    .about_area .about_text {
+        margin-top: 60px;
+    }
+
+    .about_area .side_section h2{
+        font-size: 36px;
+        padding: 0 10px;
+    }
+
+    .about_area .side_section h2::after {
+        width: 60px;
+    }
+
+    .about_area .side_section h2::before{
+        position: absolute;
+        content: '';
+        width: 60px;
+        height: 1px;
+        top: 50%;
+        right: 100%;
+        background-color: var(--orange);
+        
+    }
+
+    .about_area .side_section{
+        text-align: center;
+    }
+
+    .about_area {
+        padding: 40px 0 30px;
+    }
+
+    
+
+    .about_area p {
+        padding-top: 7px;
+    }
+
+    .about_area .theme_btn {
+        margin-top: 20px;
+    }
+
+
+
+    /*================= Product Area ================*/
+
+    .product_area {
+        padding: 0;
+    }
+
+    .section_title h2 {
+        font-size: 34px;
+        padding: 0 10px;
+    }
+
+    .section_title h2::before,
+    .section_title h2::after {
+        width: 60px;
+    }
+
+    /*============== Event Area ===============*/
+
+    .event_area {
+        margin: 50px 0;
+    }
+
+    .single_event {
+        margin: 30px 0 0px 0;
+    }
+
+    .event_border {
+        padding: 100px 0 20px 0;
+    }
+
+    /*=============== Offer Area ===============*/
+
+    .offer_part {
+        padding: 85px 0 100px 0;
+    }
+
+    .section_title h2 {
+        margin-top: 40px;
+    }
+
+    /*================ Update Area ================*/
+
+    .update_bg {
+        padding: 0;
+    }
+
+    .update_area .update_content .update_text span{
+        font-size: 11px;
+    }
+
+    /*=============== Footer Area ===============*/
+
+    .footer_contact {
+        padding-left: 10px;
+    }
+
+    .footer_nav ul li a {
+        padding-left: 0px;
+    }
+
+    .content_wrap {
+        padding: 20px 0;
+    }
+
+    .sub_form .sub_btn {
+        padding: 14px 12px;
+    }
+
+    /* ==============
+        story page
+    ================= */
+
+    .story_page .about_area {
+        padding-top: 100px;
+    }
+
+    .story_page .banner_item {
+        position: relative;
+        padding-bottom: 70px;
+    }
+
+    .achievement_area .row{
+        text-align: center;
+    }
+
+    .achievement_list .list_text h3 {
+        margin-top: 26px;
+    }
+
+    .achievement_list li {
+        margin-right: 0;
+    }
+
+    /*=====================
+         latest news page 
+     ======================*/
+
+    .blog_detail_head h3 {
+        text-align: start;
+        padding: 0px 10px;
+    }
+
+    .blog_detail_text p{
+        padding-top: 13px;
+    }
+
+    .blog_detail_text p span {
+        padding-bottom: 13px;
+    }
+
+    .blog_detail_color_text {
+        padding: 25px;
+    }
+
+    .blog_date_text a {
+        padding-right: 12px;
+    }
+
+    /* =============
+        Error Page
+    ================ */
+
+    .error_page {
+        padding: 31px 0 160px 0;
+    }
+
+    .error_page .row:nth-child(2){
+        margin-top: 130px;
+    }
+
+    .text_right {
+        text-align: left !important;
+    }
+
+    .error_page .left_text{
+        position: relative;
+    }
+
+    .error_page .left_text .btn {
+        position: absolute;
+        top: 160px;
+    }
+
+    .right_text {
+        padding-left: 0;
+    }
+
+    .error_page .right_text p {
+        margin-left: 0;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767.90px) {
+
+    .custom_nav {
+        padding: 25px 0;
+    }
+
+    .story_page .banner_item {
+        padding-bottom: 70px;
+    }
+    
+    .cate_detail p {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    /* ==============
+        story page
+    ================= */
+
+    .story_page .about_area {
+        padding-top: 150px;
+    }
+
+    /* ==============
+        Error Page
+    ================== */
+
+    .error_page .row:nth-child(2){
+        margin-top: 35px;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:767.90px) {
+
+
+
+    /*=================== footer Area ===================*/
+
+    .social_nav {
+        text-align: center;
+    }
+
+    /*================
+         Story Page 
+    ==================*/
+
+    .inner_title {
+        padding: 20px 0;
+    }   
+    
+    /*================= latest news page ===============*/
+
+    .blog_detail_part {
+        margin-top: 115px;
+    }
+
+    .blog_date_text a {
+        margin-bottom: 25px;
+    }
+
+    .tag_btn a {
+        margin-top: 15px;
+    }
+
+    .comment_area {
+        margin: 50px 0 40px 0;
+    }
+
+    .form_part .row .col-lg-6{
+        padding-bottom: 10px;
+    }
+
+    .form_part textarea {
+        margin-top: 0px;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:991.90px) {
+
+    /*=============== Main Header ================*/
+    .custom_nav {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    #mynav ul li {
+        padding-left: 0px;
+        text-align-last: center;
+    }
+
+    .navbar-nav li{
+        background-color: #1d2228;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        padding: 10px 0    ;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+
+    .navbar-nav li:hover{
+        background-color: #fff;
+    }
+
+
+    .sticky{
+        height: 56px;
+    }
+
+    /*================== offer area =================*/
+
+    .offer_part .side_section{
+        margin-top: 60px;
+    }
+
+    .offer_part .single_count {
+        padding: 25px 0;
+    }
+
+    /*================== update area =================*/
+    .update_area .slick-slider {
+        margin-top: 100px;
+    }
+
+    /*============ breadcrump ==============*/
+
+    .inner_content h2 {
+        font-size: 36px;
+    }
+
+    /*================
+         story page 
+    ==================*/
+
+    .story_page .about_area .side_section{
+        padding-top: 30px;
+    }
+
+    .signature_area {
+        padding-top: 20px;
+    }
+
+    .achievement_area {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /* ==================
+        Product Page
+    ==================== */
+    .product_page .product_area {
+        padding: 40px 0 60px;
+    }
+
+    /* ===============
+        Contact page 
+    ==================*/
+
+    .contact_info .contact_info_list{
+        position: static;
+    }
+
+    .contact_info .contact_details {
+        margin: 50px 0px;
+    }
+
+    .contact_info {
+        margin: 90px 0 80px 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.90px) {
+
+    /* ===================
+        latest news page 
+    ======================*/
+    .blog_date_text a {
+        margin-bottom: 30px;
+    }
+    .tag_btn a {
+        margin-top: 30px;
+    }
+
+    /* ===============
+        Error Page
+    ================== */
+
+    .error_page .row:nth-child(2) {
+        margin: 25px 0 0 98px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width:1199.90px){
+
+    /* =========== header part ============= */
+
+    #mynav ul li {
+        padding-left: 40px;
+    }
+
+    .update_content .post_time span {
+        color: #fff;
+        font-size: 11px;
+    }
+}
